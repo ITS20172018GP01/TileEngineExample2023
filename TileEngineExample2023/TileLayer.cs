@@ -13,8 +13,8 @@ namespace TiledSpriteExample
         int LayerTileWidth = 64;
         int LayerTileHeight = 64;
         List<TileRef> tileRefs = new List<TileRef>();
+        public bool Active = false;
 
-        
         int tileMapHeight;  // row int[row,col]
         int tileMapWidth; // dim 0 = row, dim 1 = col
         Tile[,] _tiles;
